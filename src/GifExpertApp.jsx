@@ -14,8 +14,8 @@ export const GifExpertApp = () => {
     return (
         <>
 
-            <h1>GifExpertApp</h1>
-
+            <h1>Buscador de GIFTS</h1>
+            <strong>Ingrese nombre del gift a buscar</strong>
     
             <AddCategory 
                 onNewCategory={ (value) => onAddCategory(value) }
