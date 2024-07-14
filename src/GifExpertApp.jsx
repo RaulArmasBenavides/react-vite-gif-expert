@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { AddCategory, GifGrid } from './components';
+import { AppLayout } from './layout/Layout';
 
 export const GifExpertApp = () => {
     
@@ -13,7 +14,7 @@ export const GifExpertApp = () => {
 
     return (
         <>
-
+            <AppLayout>
             <h1>Buscador de GIFTS</h1>
             <strong>Ingrese nombre del gift a buscar</strong>
     
@@ -28,10 +29,8 @@ export const GifExpertApp = () => {
                         category={ category } />
                 ))
             }
-
-
-
-
+            </AppLayout>
+       
         </>
     )
 }

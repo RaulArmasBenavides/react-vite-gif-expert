@@ -1,0 +1,22 @@
+export const categories = [
+    { name: "New", type: "home" },
+    { name: "Trending", type: "category" },
+    { name: "JavaScript", type: "category" },
+    { name: "ReactJS", type: "category" },
+    { name: "Music", type: "category" },
+    { name: "Films", type: "category" },
+    { name: "Live", type: "category" },
+    { name: "Gaming", type: "category" },
+    { name: "News", type: "category" },
+    { name: "Sports", type: "category" },
+    { name: "Learning", type: "category" },
+    {
+      name: "Fashion & beauty",
+      type: "category",
+      divider: true,
+    },
+    { name: "Settings", type: "menu" },
+    { name: "Report History", type: "menu" },
+    { name: "Help", type: "menu" },
+    { name: "Send feedback", type: "menu" },
+  ];
